@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+backend/dist/
+frontend/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Large datasets - imported separately into PostgreSQL
+data/*.csv
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
